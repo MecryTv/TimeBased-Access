@@ -17,9 +17,9 @@ public class DatabaseManager {
 
         String host = cfg.node("host").getString("localhost");
         int port = cfg.node("port").getInt(3306);
-        String username = cfg.node("user").getString("admin");
-        String password = cfg.node("password").getString("mysql05");
-        String database = cfg.node("database").getString("tbaccess");
+        String username = cfg.node("user").getString("username");
+        String password = cfg.node("password").getString("password");
+        String database = cfg.node("database").getString("database");
 
         HikariConfig mysqlConf = new HikariConfig();
 
