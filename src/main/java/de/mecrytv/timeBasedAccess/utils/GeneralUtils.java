@@ -61,16 +61,16 @@ public class GeneralUtils {
         LocalDateTime endTime;
 
         switch (unit) {
-            case "d": // Tage
+            case "d":
                 endTime = startTime.plusDays(amount);
                 break;
-            case "h": // Stunden
+            case "h":
                 endTime = startTime.plusHours(amount);
                 break;
-            case "m": // Minuten
+            case "m":
                 endTime = startTime.plusMinutes(amount);
                 break;
-            case "s": // Sekunden
+            case "s":
                 endTime = startTime.plusSeconds(amount);
                 break;
             default:
