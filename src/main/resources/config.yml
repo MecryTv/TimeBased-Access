@@ -1,6 +1,6 @@
 prefix: <bold><gradient:#00c6ff:#0072ff>[TB Access] </gradient></bold>
-mysql.host: localhost
-mysql.port: 3306
-mysql.user: admin
-mysql.password: mysql05
-mysql.database: tbaccess
+mysql.host: ip
+mysql.port: port
+mysql.user: username
+mysql.password: password
+mysql.database: database
